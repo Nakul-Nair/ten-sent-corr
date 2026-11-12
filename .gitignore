@@ -1,0 +1,256 @@
+# ============================================================
+# Operating System Files
+# ============================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+[Dd]esktop.ini
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================================
+# Quarto
+# ============================================================
+
+# Rendered website output (adjust if publishing to docs/)
+_site/
+.quarto/
+_freeze/
+
+# Quarto execution and rendering caches
+*_cache/
+*_files/
+.quarto-cache/
+
+# Temporary Quarto files
+*.quarto_ipynb
+.quarto-temp/
+
+# ============================================================
+# Python
+# ============================================================
+
+# Bytecode and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Distribution and packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Python testing and coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+*.cover
+.hypothesis/
+
+# Python type checking and linting
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+.ruff_cache/
+
+# Python package managers
+.pip-cache/
+pip-wheel-metadata/
+.poetry/
+pdm.lock.tmp
+
+# Python REPL and profiling
+.python_history
+profile/
+.prof/
+
+# ============================================================
+# R
+# ============================================================
+
+# R session and workspace files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# R package build artifacts
+.Rcheck/
+*.Rcheck/
+*.tar.gz
+
+# R temporary and cache files
+.Rproj.user/
+.RDataTmp
+*.Rout
+*.Rout.save
+.Renviron.local
+
+# RStudio temporary files
+.Rproj.user/
+
+# R package documentation/build artifacts
+doc/
+Meta/
+src/*.o
+src/*.so
+src/*.dll
+
+# renv local library and cache
+renv/library/
+renv/staging/
+renv/cache/
+
+# ============================================================
+# Jupyter Notebook / JupyterLab
+# ============================================================
+
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+profile_default/
+jupyter-*.json
+.jupyter/
+.jupyter_cache/
+
+# ============================================================
+# IDEs and Editors
+# ============================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Vim
+*.swp
+*.swo
+*.swn
+*.un~
+
+# RStudio
+.Rproj.user/
+
+# ============================================================
+# Temporary Files and Logs
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.log
+*.cache
+*.pid
+*.seed
+*.stackdump
+
+# Temporary and backup directories
+tmp/
+temp/
+.cache/
+
+# ============================================================
+# Data Science and Machine Learning Artifacts
+# ============================================================
+
+# Model checkpoints and serialized models
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Large generated data files
+*.parquet.tmp
+*.feather.tmp
+
+# ============================================================
+# Miscellaneous
+# ============================================================
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Local configuration overrides
+config.local.*
+*.local.yml
+*.local.yaml
+*.local.json
+
+# OS-generated backup files
+*.swp
+*.swo
+/.quarto/
+**/*.quarto_ipynb
