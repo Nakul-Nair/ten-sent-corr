@@ -78,6 +78,8 @@ Now that this long-standing probelm is resolved thanks to the dilligent efforts 
 
 
 ```{python}
+#| label: fig-length-width-lmplot
+#| fig-cap: "A linear model plot of petal length and width"
 
 sns.lmplot(data = df, y = 'petal_length', x = 'petal_width')
 
