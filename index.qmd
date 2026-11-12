@@ -89,6 +89,9 @@ sns.lmplot(data = df, y = 'petal_length', x = 'petal_width')
 
 ```{python}
 
+#| label: fig-length-width-hexplot
+#| fig-cap: "A hexbin plot of petal length and width"
+
 sns.jointplot(x = df['petal_length'], y = df['petal_width'], kind = 'hex', color = '#4CB391')
 
 
